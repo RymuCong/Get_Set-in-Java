@@ -26,4 +26,8 @@ public class SinhVien {
             throw new Exception("Lỗi nhập liệu!");
         this.NamSinh = namSinh;
     }
+
+    public void Hello (){
+        System.out.print("Hello World!");
+    }
 }
